@@ -6,9 +6,6 @@ const nextConfig: NextConfig = {
 
   // Package import optimization for faster compilation & smaller bundle size
   experimental: {
-    turbopack: {
-      root: __dirname,
-    },
     optimizePackageImports: [
       "lucide-react",
       "framer-motion",
